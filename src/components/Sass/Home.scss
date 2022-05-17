@@ -1,0 +1,85 @@
+body{
+    background-color: #f7f7f7;
+}
+
+.Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form-left{
+    height: 100vh;
+    width: 60%;
+    text-align: center;
+}
+
+.Form-right{
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+   
+    background-color: white;
+    padding: 50px;
+    
+}
+
+.Form-image{
+    height: 400px;
+    width: 500px;
+    
+   
+}
+.Form-input{
+    margin-bottom: 10px;
+}
+
+label{
+    display: block;
+    color: #aa9e9e;
+    margin-bottom: 4px;
+}
+input{
+    color: #a19d9d;
+    height: 30px;
+    width: 400px;
+    border-color: #cec6c6;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 5px 4px 10px 2px rgba(0,0,0,.05);    
+}
+
+.Form-checkboxlabel{
+    display: inline;
+    font-size: 12px;
+}
+.Form-checkbox{
+    height: fit-content;
+    width: fit-content;
+}
+.Form-email-error,.Form-password-error,.Form-contact-error{
+    font-size: 10px;
+    color: rgb(242, 73, 73);
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    background: #0089ff;
+    color: white;
+    height: 40px;
+    width: 140px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+h2{
+    color: gray;
+}
+p{
+    color: rgb(164, 164, 164);
+}
